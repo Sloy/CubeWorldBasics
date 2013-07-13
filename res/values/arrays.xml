@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="biomes_items">
+        <item>Desert</item>
+        <item>Greenlands</item>
+        <item>Jungle</item>
+        <item>Lava Lands</item>
+        <item>Ocean</item>
+        <item>Snowlands</item>
+        <item>Mushroom Lands (Future)</item>
+        <item>Savannahs (Future)</item>
+        <item>Swamp Lands (Future)</item>
+        <item>Undead Lands (Future)</item>
+    </string-array>
+    
+    <string-array name="classes_items">
+        <item>Warrior</item>
+        <item>Rogue</item>
+        <item>Mage</item>
+        <item>Ranger</item>
+    </string-array>
+    
+    <string-array name="controls_items">
+        <item>[1-2-3-4] - Use ability 1-4</item>
+        <item>[TAB] - Select quick item for potions</item>
+        <item>[W-A-S-D] - Move</item>
+        <item>[SHIFT] - Walk, free aim</item>
+        <item>[CTRL] - Climb</item>
+        <item>[SPACE] - Jump</item>
+        <item>[ESC] - Menu</item>
+        <item>[F1] - Help</item>
+        <item>[E] - Pick up</item>
+        <item>[R] - Interact</item>
+        <item>[F] - Light</item>
+        <item>[G] - Special item</item>
+        <item>[T] - Call pet</item>
+        <item>[X] - Skills</item>
+        <item>[C] - Crafting</item>
+        <item>[V] - Toggle HP bars</item>
+        <item>[B/I] - Inventory</item>
+        <item>[M] - World map</item>
+        <item>[RETURN/ENTER] - Chat</item>
+        <item>[Left Mouse] - Normal attack</item>
+        <item>[Right Mouse] - Special attack</item>
+        <item>[Middle Mouse Click] - Dodge</item>
+        <item>[Scroll Wheel] - Zoom</item>
+    </string-array>
+    
+    <string-array name="crafting_items">
+        <item>Weapon Crafting</item>
+        <item>Armor Crafting</item>
+        <item>Jewel Crafting</item>
+        <item>Cooking</item>
+        <item>Alchemy</item>
+        <item>Precious Stone</item>
+    </string-array>
+    
+    <string-array name="equipment_items">
+        <item>Accessories</item>
+        <item>Armor</item>
+        <item>Customization</item>
+        <item>Weapons</item>
+        <item>Special</item>
+    </string-array>
+    
+    <string-array name="items_items">
+        <item>Food</item>
+        <item>Potions</item>
+        <item>Valuables</item>
+    </string-array>
+    
+    <string-array name="monsters_items">
+        <item>Bosses</item>
+        <item>Hostile</item>
+        <item>Passive</item>
+        <item>NPCs</item>
+        <item>Rare</item>
+    </string-array>
+    
+    <string-array name="pets_items">
+        <item>Taming</item>
+        <item>Pet Types</item>
+        <item>Leveling</item>
+        <item>Pet Naming</item>
+        <item>Pet Stamina</item>
+    </string-array>
+    
+    <string-array name="races_items">
+        <item>Human</item>
+        <item>Elf</item>
+        <item>Dwarf</item>
+        <item>Orc</item>
+        <item>Goblin</item>
+        <item>Lizardmen</item>
+        <item>Undead</item>
+        <item>Frogman</item>
+    </string-array>
+    
+    <string-array name="world_items">
+        <item>Biomes</item>
+        <item>Castles</item>
+        <item>Catacombs</item>
+        <item>Caves</item>
+        <item>Cities</item>
+        <item>Dungeons</item>
+        <item>Ruins</item>
+        <item>Seeds</item>
+    </string-array>
+    
+</resources>
