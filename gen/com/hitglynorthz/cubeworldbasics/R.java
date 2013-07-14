@@ -8,18 +8,22 @@
 package com.hitglynorthz.cubeworldbasics;
 
 public final class R {
+    public static final class anim {
+        public static final int animation_enter=0x7f040000;
+        public static final int animation_leave=0x7f040001;
+    }
     public static final class array {
-        public static final int biomes_items=0x7f040000;
-        public static final int classes_items=0x7f040001;
-        public static final int controls_items=0x7f040002;
-        public static final int crafting_items=0x7f040003;
-        public static final int equipment_items=0x7f040004;
-        public static final int items_items=0x7f040005;
-        public static final int menu_items_array=0x7f04000a;
-        public static final int monsters_items=0x7f040006;
-        public static final int pets_items=0x7f040007;
-        public static final int races_items=0x7f040008;
-        public static final int world_items=0x7f040009;
+        public static final int biomes_items=0x7f050000;
+        public static final int classes_items=0x7f050001;
+        public static final int controls_items=0x7f050002;
+        public static final int crafting_items=0x7f050003;
+        public static final int equipment_items=0x7f050004;
+        public static final int items_items=0x7f050005;
+        public static final int menu_items_array=0x7f05000a;
+        public static final int monsters_items=0x7f050006;
+        public static final int pets_items=0x7f050007;
+        public static final int races_items=0x7f050008;
+        public static final int world_items=0x7f050009;
     }
     public static final class attr {
     }
@@ -30,8 +34,8 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
     }
     public static final class drawable {
         public static final int action_search=0x7f020000;
@@ -40,26 +44,28 @@ public final class R {
         public static final int ic_launcher=0x7f020003;
     }
     public static final class id {
-        public static final int ScrollView1=0x7f090003;
-        public static final int content_frame=0x7f090001;
-        public static final int drawer_layout=0x7f090000;
-        public static final int left_drawer=0x7f090002;
-        public static final int listBiomes=0x7f090005;
-        public static final int listClasses=0x7f090007;
-        public static final int listControls=0x7f090008;
-        public static final int listCrafting=0x7f090009;
-        public static final int listEquipment=0x7f09000a;
-        public static final int listItems=0x7f09000d;
-        public static final int listMonsters=0x7f090010;
-        public static final int listPets=0x7f090011;
-        public static final int listRaces=0x7f090012;
-        public static final int listWorld=0x7f090013;
-        public static final int textControlText=0x7f09000f;
-        public static final int textControlsItems=0x7f09000e;
-        public static final int textFragment=0x7f09000b;
-        public static final int textView1=0x7f090004;
-        public static final int textView2=0x7f090006;
-        public static final int textView3=0x7f09000c;
+        public static final int ScrollView1=0x7f0a0003;
+        public static final int content_frame=0x7f0a0001;
+        public static final int drawer_layout=0x7f0a0000;
+        public static final int left_drawer=0x7f0a0002;
+        public static final int listBiomes=0x7f0a0005;
+        public static final int listClasses=0x7f0a0007;
+        public static final int listControls=0x7f0a0008;
+        public static final int listCrafting=0x7f0a0009;
+        public static final int listEquipment=0x7f0a000a;
+        public static final int listItems=0x7f0a000d;
+        public static final int listMonsters=0x7f0a0010;
+        public static final int listPets=0x7f0a0011;
+        public static final int listRaces=0x7f0a0012;
+        public static final int listWorld=0x7f0a0015;
+        public static final int textControlText=0x7f0a000f;
+        public static final int textControlsItems=0x7f0a000e;
+        public static final int textFragment=0x7f0a000b;
+        public static final int textView1=0x7f0a0004;
+        public static final int textView2=0x7f0a0006;
+        public static final int textView3=0x7f0a000c;
+        public static final int txtAbout=0x7f0a0014;
+        public static final int txtTitle=0x7f0a0013;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -80,27 +86,71 @@ public final class R {
         public static final int world_layout=0x7f03000f;
     }
     public static final class menu {
-        public static final int main=0x7f080000;
+        public static final int main=0x7f090000;
     }
     public static final class string {
-        public static final int action_settings=0x7f060001;
-        public static final int action_websearch=0x7f060005;
-        public static final int app_name=0x7f060000;
-        public static final int app_not_available=0x7f060006;
-        public static final int biomes_about=0x7f060008;
-        public static final int classes_about=0x7f060009;
-        public static final int controls_about=0x7f06000a;
-        public static final int crafting_about=0x7f06000c;
-        public static final int drawer_close=0x7f060004;
-        public static final int drawer_open=0x7f060003;
-        public static final int equipment_about=0x7f06000b;
-        public static final int hello_world=0x7f060002;
-        public static final int home_about=0x7f060007;
-        public static final int items_about=0x7f06000d;
-        public static final int monsters_about=0x7f06000e;
-        public static final int pets_about=0x7f06000f;
-        public static final int races_about=0x7f060010;
-        public static final int world_about=0x7f060011;
+        public static final int accessories_about=0x7f07001b;
+        public static final int action_settings=0x7f070001;
+        public static final int action_websearch=0x7f070005;
+        public static final int alchemy_about=0x7f070019;
+        public static final int app_name=0x7f070000;
+        public static final int app_not_available=0x7f070006;
+        public static final int armor_about=0x7f07001c;
+        public static final int armor_crafting_about=0x7f070016;
+        public static final int biomes_about=0x7f070033;
+        public static final int bosses_about=0x7f070022;
+        public static final int caves_about=0x7f070034;
+        public static final int cities_about=0x7f070035;
+        public static final int classes_about=0x7f070008;
+        public static final int controls_about=0x7f070009;
+        public static final int cooking_about=0x7f070018;
+        public static final int crafting_about=0x7f07000b;
+        public static final int drawer_close=0x7f070004;
+        public static final int drawer_open=0x7f070003;
+        public static final int dungeons_about=0x7f070036;
+        public static final int dwarf_about=0x7f07002d;
+        public static final int elf_about=0x7f07002c;
+        public static final int equipment_about=0x7f07000a;
+        public static final int food_about=0x7f07001f;
+        public static final int frogman_about=0x7f070032;
+        public static final int goblin_about=0x7f07002f;
+        public static final int hello_world=0x7f070002;
+        public static final int home_about=0x7f070007;
+        public static final int hostile_about=0x7f070023;
+        public static final int human_about=0x7f07002b;
+        public static final int items_about=0x7f07000c;
+        public static final int jewel_crafting_about=0x7f070017;
+        /**  <string name="pet_types"></string> 
+         */
+        public static final int leveling_about=0x7f070028;
+        public static final int lizardmen_about=0x7f070030;
+        public static final int mage_about=0x7f070013;
+        public static final int monsters_about=0x7f07000d;
+        public static final int npcs_about=0x7f070025;
+        public static final int orc_about=0x7f07002e;
+        public static final int passive_about=0x7f070024;
+        public static final int pet_naming_about=0x7f070029;
+        public static final int pet_stamina_about=0x7f07002a;
+        public static final int pets_about=0x7f07000e;
+        public static final int potions_about=0x7f070020;
+        public static final int precious_stone_about=0x7f07001a;
+        public static final int races_about=0x7f07000f;
+        public static final int ranger_about=0x7f070012;
+        public static final int rare_about=0x7f070026;
+        public static final int rogue_about=0x7f070014;
+        public static final int seeds_about=0x7f070037;
+        public static final int special_about=0x7f07001e;
+        public static final int taming_about=0x7f070027;
+        public static final int undead_about=0x7f070031;
+        public static final int valuables_about=0x7f070021;
+        /**  about classes 
+         */
+        public static final int warrior_about=0x7f070011;
+        public static final int weapon_crafting_about=0x7f070015;
+        /**  <string name=""></string> 
+         */
+        public static final int weapons_about=0x7f07001d;
+        public static final int world_about=0x7f070010;
     }
     public static final class style {
         /** 
@@ -124,10 +174,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
+        public static final int AppTheme=0x7f080001;
     }
 }

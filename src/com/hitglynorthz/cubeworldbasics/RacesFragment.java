@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.DialogInterface.OnClickListener;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -29,16 +30,9 @@ public class RacesFragment extends Fragment {
         listRaces.setAdapter(adapterRaces);
         listRaces.setOnItemClickListener(new OnItemClickListener(){
             public void onItemClick(AdapterView<?> parent, View view, int position,long id){
-            	//Toast.makeText(getActivity(), "Ha pulsado " + classes_items[position], Toast.LENGTH_SHORT).show();
-            	AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-            	builder.setTitle(races_items[position]);
-            	builder.setMessage("asdfasdf");
-                builder.setPositiveButton("OK", new OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.cancel();
-                    }
-                });
-                builder.show();
+            	Intent it = new Intent(getActivity(), SingleListItem.class);
+                it.putExtra("title", races_items[position]);
+                startActivity(it);
             }
         });
         ListSizeHelper.setListViewHeightBasedOnChildren(listRaces);

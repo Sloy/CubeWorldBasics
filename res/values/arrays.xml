@@ -99,12 +99,9 @@
     
     <string-array name="world_items">
         <item>Biomes</item>
-        <item>Castles</item>
-        <item>Catacombs</item>
         <item>Caves</item>
         <item>Cities</item>
         <item>Dungeons</item>
-        <item>Ruins</item>
         <item>Seeds</item>
     </string-array>
     
