@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:label="Single" android:name="SingleListItem"></activity>
+        <activity android:label="Multiple" android:name=".singleitem.MultiplePagesActivity"/>
     </application>
 
 </manifest>

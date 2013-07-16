@@ -1,11 +1,7 @@
 package com.hitglynorthz.cubeworldbasics;
 
-import android.app.AlertDialog;
 import android.app.Fragment;
-import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.DialogInterface.OnClickListener;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,6 +10,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import com.hitglynorthz.cubeworldbasics.singleitem.MultiplePagesActivity;
 
 public class ClassesFragment extends Fragment {
 	String[] classes_items;
@@ -30,8 +27,8 @@ public class ClassesFragment extends Fragment {
         listClasses.setAdapter(adapterClasses);
         listClasses.setOnItemClickListener(new OnItemClickListener(){
             public void onItemClick(AdapterView<?> parent, View view, int position,long id){
-            	Intent it = new Intent(getActivity(), SingleListItem.class);
-                it.putExtra("title", classes_items[position]);
+            	Intent it = MultiplePagesActivity.getIntent(getActivity(), classes_items, position);
+                //it.putExtra("title", classes_items[position]);
                 startActivity(it);
             }
         });
